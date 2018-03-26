@@ -1,4 +1,7 @@
 # Chat-Stats
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3c7821038f9c4024b2bb3c9b8be6f31b)](https://app.codacy.com/app/Bowserinator/chat-stats?utm_source=github.com&utm_medium=referral&utm_content=Bowserinator/chat-stats&utm_campaign=badger)
+
 A simple python program to analyze chat logs and output pretty HTML charts (Also gives very verbose JSON output). When it's done (It might take a few seconds) you should get an output that looks something like this: https://imgur.com/a/2EYgf
 
 ## Getting Started
