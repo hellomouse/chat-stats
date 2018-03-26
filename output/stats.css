@@ -1,0 +1,122 @@
+body{
+	padding: 30px 15% 0px 15%;
+	background-color: #FCFCFC;
+	width: 1150px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3{
+    font-weight: 400;
+    text-transform: uppercase;
+	width: auto;
+	display: inline-block;
+	margin: 4px;
+}
+
+td{
+	padding: 10px 40px 10px 40px;
+	display: inline-block;
+	width: 150px;
+}
+
+hr{
+	color: transparent;
+	border-top: 1px solid #DDD;
+}
+
+td small{
+	text-transform: uppercase;
+	color: #455A64;
+}
+
+/* Modified blockquote code from 
+ * https://codepen.io/cliftwalker/pen/XJaEXY */
+blockquote{
+	font-size: 18px;
+	width: 60%;
+	font-style: italic;
+	color: #555;
+	padding: 20px 30px 20px 75px;
+	border-left: 8px solid #37474F;
+	line-height: 1.6;
+	position: relative;
+	background: #EDEDED;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+blockquote::before{
+	font-family: Arial;
+	content: "\201C";
+	color: #37474F;
+	font-size: 4em;
+	position: absolute;
+	left: 10px;
+	top: -10px;
+}
+
+blockquote::after{
+	content: '';
+}
+
+blockquote span{
+	display:block;
+	color:#333333;
+	font-style: normal;
+	font-weight: bold;
+	margin-top:0.2em;
+}
+
+.border-top{
+	border-top: 1px solid #DDD;
+}
+
+.small-title{
+	font-size: 16px;
+}
+
+.large-bold{
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.url{
+	font-size: 14px;
+	color: #607D8B;
+	border-bottom: 1px solid #607D8B;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+.small-td{
+	padding: 0 10px 0 10px;
+	width: 120px;
+}
+
+.simple-table td{
+	padding: 0 10px 0 10px;
+}
+
+.float-left{
+	float: left;
+}
+
+.badge{
+	padding: 10px;
+	background-color: #CFD8DC;
+	color: #333;
+	font-size: 14px;
+	margin: 3px;
+	display: inline-block;
+}
+
+.light-gray{
+    color: #AAA;
+}
+
+.light-blue-gray{
+	color: #37474F;
+}

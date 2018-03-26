@@ -1,0 +1,31 @@
+SWEARS = ["anal", "anus", "arse", "ass", "ballsack", "balls", "bastard",
+          "bitch", "biatch", "bloody", "blowjob", "blow job", "bollock",
+          "bollok", "boner", "boob", "bugger", "bum", "butt", "buttplug",
+          "clitoris", "cock", "coon", "crap", "cunt", "damn", "dick",
+          "dildo", "dyke", "fag", "feck", "fellate", "fellatio", "felching",
+          "fuck", "f u c k", "fudgepacker", "fudge packer", "flange",
+          "goddamn", "god damn", "hell", "homo", "jerk", "jizz", "knobend",
+          "knob end", "labia", "lmao", "lmfao", "muff", "nigger", "nigga", "omg",
+          "penis", "piss", "poop", "prick", "pube", "pussy", "queer", "scrotum",
+          "sex", "shit", "s hit", "sh1t", "slut", "smegma", "spunk", "tit",
+          "tosser", "turd", "twat", "vagina", "wank", "whore", "wtf"]
+
+RESPONSES = ["good job", "lol", "lmao", "lmfao", "haha", "good one",
+             "thanks", "thank", "kk", "oh okay", "yeah", "huh", "oh damn",
+             "that's cool", "thats cool", "yup", "rip", "cool", "nice",
+             "congrats", "good luck"]
+
+STOPWORDS = ["i", "mms", "me", "my", "myself", "we", "our", "ours", "ourselves",
+             "you", "your", "yours", "yourself", "yourselves", "he", "him", "his",
+             "himself", "she", "her", "hers", "herself", "it", "its", "itself",
+             "they", "them", "their", "theirs", "themselves", "what", "which",
+             "who", "whom", "this", "that", "these", "those", "am", "is", "are",
+             "was", "were", "be", "been", "being", "have", "has", "had", "having",
+             "do", "does", "did", "doing", "a", "an", "the", "and", "but", "if", "or",
+             "because", "as", "until", "while", "of", "at", "by", "for", "with", "about",
+             "against", "between", "into", "through", "during", "before", "after", "above",
+             "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under",
+             "again", "further", "then", "once", "here", "there", "when", "where", "why",
+             "how", "all", "any", "both", "each", "few", "more", "most", "other", "some",
+             "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very",
+             "s", "t", "can", "will", "just", "don", "should", "dont", "cant", "im", "now"]

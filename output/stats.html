@@ -1,0 +1,379 @@
+
+    <title>Chat Statistics</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="stats.css">  
+    
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>        
+
+    <h1 style="font-weight: 700; font-size: 60px">Chat Statistics</h1><br>
+    <span class="light-gray">2018-03-26 to 2018-03-26 (1 days)</span><br>
+    <br>
+    The most active day was <b>2018-03-26 (0 messages)</b><br>
+    Active days account for <b>100.00%</b> of all days<br><br>
+    
+    <h2 class="light-gray small-title">Overview</h2><br>
+    <table style="width:100%">
+        <tr>
+            <td class="border-top">
+                <small>Persons Involved</small><br>
+                <span class="large-bold light-blue-gray">3</span>
+            </td>
+            <td class="border-top">
+                <small>Mum. Active Days</small><br>
+                <span class="large-bold light-blue-gray">1</span>
+            </td> 
+            <td class="border-top">
+                <small>Mum. Inactive Days</small><br>
+                <span class="large-bold light-blue-gray">0</span>
+            </td> 
+        </tr>
+    </table>
+
+    <h2 class="light-gray small-title">Totals</h2><br>
+    <table style="width:100%">
+        <tr>
+            <td class="border-top">
+                <small>Messages</small><br>
+                <span class="large-bold light-blue-gray">8</span>
+            </td>
+            <td class="border-top">
+                <small>Words</small><br>
+                <span class="large-bold light-blue-gray">34</span>
+            </td> 
+            <td class="border-top">
+                <small>Characters</small><br>
+                <span class="large-bold light-blue-gray">184</span>
+            </td> 
+            <td class="border-top">
+                <small>Chars. (no spaces)</small><br>
+                <span class="large-bold light-blue-gray">158</span>
+            </td> 
+        </tr>
+    </table>
+
+    <h2 class="light-gray small-title">Averages</h2><br>
+    <table style="width:100%">
+        <tr>
+            <td class="border-top">
+                <small>msg / day (active)</small><br>
+                <span class="large-bold light-blue-gray">8.00</span>
+            </td>
+            <td class="border-top">
+                <small>msg / day (all)</small><br>
+                <span class="large-bold light-blue-gray">8.00</span>
+            </td> 
+            <td class="border-top">
+                <small>Words per message</small><br>
+                <span class="large-bold light-blue-gray">4.25</span>
+            </td> 
+            <td class="border-top">
+                <small>Letters per word</small><br>
+                <span class="large-bold light-blue-gray">4.65</span>
+            </td> 
+        </tr>
+    </table>
+
+    <h2 class="light-gray small-title">Content</h2><br>
+    <table style="width:100%">
+        <tr>
+            <td class="border-top">
+                <small>Swears</small><br>
+                <span class="large-bold light-blue-gray">0</span>
+            </td>
+            <td class="border-top">
+                <small>Questions</small><br>
+                <span class="large-bold light-blue-gray">3</span>
+            </td> 
+            <td class="border-top">
+                <small>URLs</small><br>
+                <span class="large-bold light-blue-gray">0</span>
+            </td> 
+        </tr>
+    </table>
+    <br>
+    
+    <h2 class="light-gray small-title">Some Urls Posted</h2><br>
+    <br><br>
+    
+    <h2 class="light-gray small-title">First Message Sent</h2><br>
+    <blockquote>Hello
+    <span>Alice</span>
+    </blockquote>
+    <br><br>
+    
+    <h2>Activity Per Person</h2><br>
+            <table style='width: 100%'>
+    <tr>
+        <td style="padding: 10px; width: 200px">
+            <h3 class="large-bold light-blue-gray" 
+                style="font-size: 24px; width: 200px">Bobby</h3>
+        </td>
+        <td class='user_graph_1' id='Bobby'></td>
+    </tr>
+    <script>
+    var trace = {
+        x: ['2018-03-26'],
+        y: [0],
+        type: 'bar',
+        marker: {  color: '#455A64' }
+    };
+
+    var data = [trace];
+
+    var layout = {
+        showlegend: false,
+        height: 120,
+        width: 800,
+        plot_bgcolor: "#FCFCFC",
+        paper_bgcolor: "#FCFCFC",
+        margin: { l: 25, r: 25, b: 35, t: 25, pad: 4 },
+        yaxis: {
+            zeroline: false,
+            gridwidth: 2,
+            range: [0, 3]
+        },
+        bargap: 0.0,
+    };
+
+    Plotly.newPlot(Bobby, data, layout);
+    </script>
+    <tr>
+        <td style="padding: 10px; width: 200px">
+            <h3 class="large-bold light-blue-gray" 
+                style="font-size: 24px; width: 200px">Carl</h3>
+        </td>
+        <td class='user_graph_1' id='Carl'></td>
+    </tr>
+    <script>
+    var trace = {
+        x: ['2018-03-26'],
+        y: [0],
+        type: 'bar',
+        marker: {  color: '#455A64' }
+    };
+
+    var data = [trace];
+
+    var layout = {
+        showlegend: false,
+        height: 120,
+        width: 800,
+        plot_bgcolor: "#FCFCFC",
+        paper_bgcolor: "#FCFCFC",
+        margin: { l: 25, r: 25, b: 35, t: 25, pad: 4 },
+        yaxis: {
+            zeroline: false,
+            gridwidth: 2,
+            range: [0, 3]
+        },
+        bargap: 0.0,
+    };
+
+    Plotly.newPlot(Carl, data, layout);
+    </script>
+    <tr>
+        <td style="padding: 10px; width: 200px">
+            <h3 class="large-bold light-blue-gray" 
+                style="font-size: 24px; width: 200px">Alice</h3>
+        </td>
+        <td class='user_graph_1' id='Alice'></td>
+    </tr>
+    <script>
+    var trace = {
+        x: ['2018-03-26'],
+        y: [0],
+        type: 'bar',
+        marker: {  color: '#455A64' }
+    };
+
+    var data = [trace];
+
+    var layout = {
+        showlegend: false,
+        height: 120,
+        width: 800,
+        plot_bgcolor: "#FCFCFC",
+        paper_bgcolor: "#FCFCFC",
+        margin: { l: 25, r: 25, b: 35, t: 25, pad: 4 },
+        yaxis: {
+            zeroline: false,
+            gridwidth: 2,
+            range: [0, 3]
+        },
+        bargap: 0.0,
+    };
+
+    Plotly.newPlot(Alice, data, layout);
+    </script></table><br><br><h2>Percentage Share of Activity Per Person</h2><br><table style='width: 100%'><tr><td style='width: 300px'><table><tr><td class='small-td'><b>Bobby</b></td><td class='small-td'>37.50%<br></td></tr><tr><td class='small-td'><b>Carl</b></td><td class='small-td'>25.00%<br></td></tr><tr><td class='small-td'><b>Alice</b></td><td class='small-td'>37.50%<br></td></tr></table></td><td>
+    <div id="user_activity_pie_chart"></div>
+    <script>
+        var data = [{
+            values: [0.375, 0.25, 0.375],
+            labels: ['Bobby', 'Carl', 'Alice'],
+            type: 'pie'
+        }];
+
+        Plotly.newPlot("user_activity_pie_chart", data, {
+            height: 300,
+            width: 500,
+            margin: { l: 25, r: 25, b: 35, t: 25, pad: 4 },
+            plot_bgcolor: "#FCFCFC",
+            paper_bgcolor: "#FCFCFC",
+        });
+    </script></td></tr></table>
+    <br>
+    <h2>Activity Over Entire Period</h2><br>
+    <div id="stacked_activity_all"></div>
+<script>var trace1 = {
+   x: ['2018-03-26'],
+   y: [0],
+   name: 'Bobby',
+   type: 'bar'
+};
+var trace2 = {
+   x: ['2018-03-26'],
+   y: [0],
+   name: 'Carl',
+   type: 'bar'
+};
+var trace3 = {
+   x: ['2018-03-26'],
+   y: [0],
+   name: 'Alice',
+   type: 'bar'
+};
+var data = [trace1, trace2, trace3];
+Plotly.newPlot('stacked_activity_all', data, {
+        barmode: "stack", 
+        margin: { l: 25, r: 25, b: 55, t: 25, pad: 4 },
+        plot_bgcolor: "#FCFCFC",
+        paper_bgcolor: "#FCFCFC",
+        height: 350
+    });
+</script>
+    <br>
+    <h2>Activity Per Day of Week &nbsp; &nbsp; (STACK, TOP) (SIDE, BOTTOM)</h2><br>
+    <div id="activity_per_day_week_stacked"></div>
+<script>var trace1 = {
+   x: ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat', 'Sun'],
+   y: [3, 0, 0, 0, 0, 0, 0],
+   name: 'Bobby',
+   type: 'bar'
+};
+var trace2 = {
+   x: ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat', 'Sun'],
+   y: [2, 0, 0, 0, 0, 0, 0],
+   name: 'Carl',
+   type: 'bar'
+};
+var trace3 = {
+   x: ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat', 'Sun'],
+   y: [3, 0, 0, 0, 0, 0, 0],
+   name: 'Alice',
+   type: 'bar'
+};
+var data = [trace1, trace2, trace3];
+Plotly.newPlot('activity_per_day_week_stacked', data, {
+        barmode: "stack", 
+        margin: { l: 25, r: 25, b: 35, t: 25, pad: 4 },
+        plot_bgcolor: "#FCFCFC",
+        paper_bgcolor: "#FCFCFC",
+        height: 220
+    });
+</script>
+    <div id="activity_per_week_day_side"></div>
+    <script>
+        Plotly.newPlot("activity_per_week_day_side", data, {
+            barmode: "group",
+            margin: { l: 25, r: 25, b: 35, t: 25, pad: 4 },
+            plot_bgcolor: "#FCFCFC",
+            paper_bgcolor: "#FCFCFC",
+            height: 220
+        });
+    </script>
+    <br>
+    <h2>Most Active Hour of Day</h2><br>
+    <div id="most_active_hour_day"></div>
+    <script>
+
+    
+            var trace0 = {
+                x: ['12 AM', '1 AM', '2 AM', '3 AM', '4 AM', '5 AM', '6 AM', '7 AM', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '1 PM', '2 PM', '3 PM', '4 PM', '5 PM', '6 PM', '7 PM', '8 PM', '9 PM', '10 PM', '11 PM'],
+                y: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                name: 'Bobby',
+                type: 'bar'
+            }; 
+            var trace1 = {
+                x: ['12 AM', '1 AM', '2 AM', '3 AM', '4 AM', '5 AM', '6 AM', '7 AM', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '1 PM', '2 PM', '3 PM', '4 PM', '5 PM', '6 PM', '7 PM', '8 PM', '9 PM', '10 PM', '11 PM'],
+                y: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                name: 'Carl',
+                type: 'bar'
+            }; 
+            var trace2 = {
+                x: ['12 AM', '1 AM', '2 AM', '3 AM', '4 AM', '5 AM', '6 AM', '7 AM', '8 AM', '9 AM', '10 AM', '11 AM', '12 PM', '1 PM', '2 PM', '3 PM', '4 PM', '5 PM', '6 PM', '7 PM', '8 PM', '9 PM', '10 PM', '11 PM'],
+                y: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                name: 'Alice',
+                type: 'bar'
+            }; 
+    var data = [trace0, trace1, trace2];
+    var layout = {
+        barmode: "stack",
+        margin: { l: 25, r: 25, b: 35, t: 25, pad: 4 },
+        plot_bgcolor: "#FCFCFC",
+        paper_bgcolor: "#FCFCFC",
+        height: 220
+    };
+    Plotly.newPlot("most_active_hour_day", data, layout);
+    </script> 
+        <br>
+        <h2>Most Active Hour of the Week</h2><br>
+        <div id="most_active_hour_week"></div>
+        <script>
+var trace1 = {
+   x: ['Mon 12 AM', 'Mon 1 AM', 'Mon 2 AM', 'Mon 3 AM', 'Mon 4 AM', 'Mon 5 AM', 'Mon 6 AM', 'Mon 7 AM', 'Mon 8 AM', 'Mon 9 AM', 'Mon 10 AM', 'Mon 11 AM', 'Mon 12 PM', 'Mon 1 PM', 'Mon 2 PM', 'Mon 3 PM', 'Mon 4 PM', 'Mon 5 PM', 'Mon 6 PM', 'Mon 7 PM', 'Mon 8 PM', 'Mon 9 PM', 'Mon 10 PM', 'Mon 11 PM', 'Tue 12 AM', 'Tue 1 AM', 'Tue 2 AM', 'Tue 3 AM', 'Tue 4 AM', 'Tue 5 AM', 'Tue 6 AM', 'Tue 7 AM', 'Tue 8 AM', 'Tue 9 AM', 'Tue 10 AM', 'Tue 11 AM', 'Tue 12 PM', 'Tue 1 PM', 'Tue 2 PM', 'Tue 3 PM', 'Tue 4 PM', 'Tue 5 PM', 'Tue 6 PM', 'Tue 7 PM', 'Tue 8 PM', 'Tue 9 PM', 'Tue 10 PM', 'Tue 11 PM', 'Wed 12 AM', 'Wed 1 AM', 'Wed 2 AM', 'Wed 3 AM', 'Wed 4 AM', 'Wed 5 AM', 'Wed 6 AM', 'Wed 7 AM', 'Wed 8 AM', 'Wed 9 AM', 'Wed 10 AM', 'Wed 11 AM', 'Wed 12 PM', 'Wed 1 PM', 'Wed 2 PM', 'Wed 3 PM', 'Wed 4 PM', 'Wed 5 PM', 'Wed 6 PM', 'Wed 7 PM', 'Wed 8 PM', 'Wed 9 PM', 'Wed 10 PM', 'Wed 11 PM', 'Thr 12 AM', 'Thr 1 AM', 'Thr 2 AM', 'Thr 3 AM', 'Thr 4 AM', 'Thr 5 AM', 'Thr 6 AM', 'Thr 7 AM', 'Thr 8 AM', 'Thr 9 AM', 'Thr 10 AM', 'Thr 11 AM', 'Thr 12 PM', 'Thr 1 PM', 'Thr 2 PM', 'Thr 3 PM', 'Thr 4 PM', 'Thr 5 PM', 'Thr 6 PM', 'Thr 7 PM', 'Thr 8 PM', 'Thr 9 PM', 'Thr 10 PM', 'Thr 11 PM', 'Fri 12 AM', 'Fri 1 AM', 'Fri 2 AM', 'Fri 3 AM', 'Fri 4 AM', 'Fri 5 AM', 'Fri 6 AM', 'Fri 7 AM', 'Fri 8 AM', 'Fri 9 AM', 'Fri 10 AM', 'Fri 11 AM', 'Fri 12 PM', 'Fri 1 PM', 'Fri 2 PM', 'Fri 3 PM', 'Fri 4 PM', 'Fri 5 PM', 'Fri 6 PM', 'Fri 7 PM', 'Fri 8 PM', 'Fri 9 PM', 'Fri 10 PM', 'Fri 11 PM', 'Sat 12 AM', 'Sat 1 AM', 'Sat 2 AM', 'Sat 3 AM', 'Sat 4 AM', 'Sat 5 AM', 'Sat 6 AM', 'Sat 7 AM', 'Sat 8 AM', 'Sat 9 AM', 'Sat 10 AM', 'Sat 11 AM', 'Sat 12 PM', 'Sat 1 PM', 'Sat 2 PM', 'Sat 3 PM', 'Sat 4 PM', 'Sat 5 PM', 'Sat 6 PM', 'Sat 7 PM', 'Sat 8 PM', 'Sat 9 PM', 'Sat 10 PM', 'Sat 11 PM', 'Sun 12 AM', 'Sun 1 AM', 'Sun 2 AM', 'Sun 3 AM', 'Sun 4 AM', 'Sun 5 AM', 'Sun 6 AM', 'Sun 7 AM', 'Sun 8 AM', 'Sun 9 AM', 'Sun 10 AM', 'Sun 11 AM', 'Sun 12 PM', 'Sun 1 PM', 'Sun 2 PM', 'Sun 3 PM', 'Sun 4 PM', 'Sun 5 PM', 'Sun 6 PM', 'Sun 7 PM', 'Sun 8 PM', 'Sun 9 PM', 'Sun 10 PM', 'Sun 11 PM'],
+   y: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+   name: 'Bobby',
+   type: 'bar'
+};
+var trace2 = {
+   x: ['Mon 12 AM', 'Mon 1 AM', 'Mon 2 AM', 'Mon 3 AM', 'Mon 4 AM', 'Mon 5 AM', 'Mon 6 AM', 'Mon 7 AM', 'Mon 8 AM', 'Mon 9 AM', 'Mon 10 AM', 'Mon 11 AM', 'Mon 12 PM', 'Mon 1 PM', 'Mon 2 PM', 'Mon 3 PM', 'Mon 4 PM', 'Mon 5 PM', 'Mon 6 PM', 'Mon 7 PM', 'Mon 8 PM', 'Mon 9 PM', 'Mon 10 PM', 'Mon 11 PM', 'Tue 12 AM', 'Tue 1 AM', 'Tue 2 AM', 'Tue 3 AM', 'Tue 4 AM', 'Tue 5 AM', 'Tue 6 AM', 'Tue 7 AM', 'Tue 8 AM', 'Tue 9 AM', 'Tue 10 AM', 'Tue 11 AM', 'Tue 12 PM', 'Tue 1 PM', 'Tue 2 PM', 'Tue 3 PM', 'Tue 4 PM', 'Tue 5 PM', 'Tue 6 PM', 'Tue 7 PM', 'Tue 8 PM', 'Tue 9 PM', 'Tue 10 PM', 'Tue 11 PM', 'Wed 12 AM', 'Wed 1 AM', 'Wed 2 AM', 'Wed 3 AM', 'Wed 4 AM', 'Wed 5 AM', 'Wed 6 AM', 'Wed 7 AM', 'Wed 8 AM', 'Wed 9 AM', 'Wed 10 AM', 'Wed 11 AM', 'Wed 12 PM', 'Wed 1 PM', 'Wed 2 PM', 'Wed 3 PM', 'Wed 4 PM', 'Wed 5 PM', 'Wed 6 PM', 'Wed 7 PM', 'Wed 8 PM', 'Wed 9 PM', 'Wed 10 PM', 'Wed 11 PM', 'Thr 12 AM', 'Thr 1 AM', 'Thr 2 AM', 'Thr 3 AM', 'Thr 4 AM', 'Thr 5 AM', 'Thr 6 AM', 'Thr 7 AM', 'Thr 8 AM', 'Thr 9 AM', 'Thr 10 AM', 'Thr 11 AM', 'Thr 12 PM', 'Thr 1 PM', 'Thr 2 PM', 'Thr 3 PM', 'Thr 4 PM', 'Thr 5 PM', 'Thr 6 PM', 'Thr 7 PM', 'Thr 8 PM', 'Thr 9 PM', 'Thr 10 PM', 'Thr 11 PM', 'Fri 12 AM', 'Fri 1 AM', 'Fri 2 AM', 'Fri 3 AM', 'Fri 4 AM', 'Fri 5 AM', 'Fri 6 AM', 'Fri 7 AM', 'Fri 8 AM', 'Fri 9 AM', 'Fri 10 AM', 'Fri 11 AM', 'Fri 12 PM', 'Fri 1 PM', 'Fri 2 PM', 'Fri 3 PM', 'Fri 4 PM', 'Fri 5 PM', 'Fri 6 PM', 'Fri 7 PM', 'Fri 8 PM', 'Fri 9 PM', 'Fri 10 PM', 'Fri 11 PM', 'Sat 12 AM', 'Sat 1 AM', 'Sat 2 AM', 'Sat 3 AM', 'Sat 4 AM', 'Sat 5 AM', 'Sat 6 AM', 'Sat 7 AM', 'Sat 8 AM', 'Sat 9 AM', 'Sat 10 AM', 'Sat 11 AM', 'Sat 12 PM', 'Sat 1 PM', 'Sat 2 PM', 'Sat 3 PM', 'Sat 4 PM', 'Sat 5 PM', 'Sat 6 PM', 'Sat 7 PM', 'Sat 8 PM', 'Sat 9 PM', 'Sat 10 PM', 'Sat 11 PM', 'Sun 12 AM', 'Sun 1 AM', 'Sun 2 AM', 'Sun 3 AM', 'Sun 4 AM', 'Sun 5 AM', 'Sun 6 AM', 'Sun 7 AM', 'Sun 8 AM', 'Sun 9 AM', 'Sun 10 AM', 'Sun 11 AM', 'Sun 12 PM', 'Sun 1 PM', 'Sun 2 PM', 'Sun 3 PM', 'Sun 4 PM', 'Sun 5 PM', 'Sun 6 PM', 'Sun 7 PM', 'Sun 8 PM', 'Sun 9 PM', 'Sun 10 PM', 'Sun 11 PM'],
+   y: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+   name: 'Carl',
+   type: 'bar'
+};
+var trace3 = {
+   x: ['Mon 12 AM', 'Mon 1 AM', 'Mon 2 AM', 'Mon 3 AM', 'Mon 4 AM', 'Mon 5 AM', 'Mon 6 AM', 'Mon 7 AM', 'Mon 8 AM', 'Mon 9 AM', 'Mon 10 AM', 'Mon 11 AM', 'Mon 12 PM', 'Mon 1 PM', 'Mon 2 PM', 'Mon 3 PM', 'Mon 4 PM', 'Mon 5 PM', 'Mon 6 PM', 'Mon 7 PM', 'Mon 8 PM', 'Mon 9 PM', 'Mon 10 PM', 'Mon 11 PM', 'Tue 12 AM', 'Tue 1 AM', 'Tue 2 AM', 'Tue 3 AM', 'Tue 4 AM', 'Tue 5 AM', 'Tue 6 AM', 'Tue 7 AM', 'Tue 8 AM', 'Tue 9 AM', 'Tue 10 AM', 'Tue 11 AM', 'Tue 12 PM', 'Tue 1 PM', 'Tue 2 PM', 'Tue 3 PM', 'Tue 4 PM', 'Tue 5 PM', 'Tue 6 PM', 'Tue 7 PM', 'Tue 8 PM', 'Tue 9 PM', 'Tue 10 PM', 'Tue 11 PM', 'Wed 12 AM', 'Wed 1 AM', 'Wed 2 AM', 'Wed 3 AM', 'Wed 4 AM', 'Wed 5 AM', 'Wed 6 AM', 'Wed 7 AM', 'Wed 8 AM', 'Wed 9 AM', 'Wed 10 AM', 'Wed 11 AM', 'Wed 12 PM', 'Wed 1 PM', 'Wed 2 PM', 'Wed 3 PM', 'Wed 4 PM', 'Wed 5 PM', 'Wed 6 PM', 'Wed 7 PM', 'Wed 8 PM', 'Wed 9 PM', 'Wed 10 PM', 'Wed 11 PM', 'Thr 12 AM', 'Thr 1 AM', 'Thr 2 AM', 'Thr 3 AM', 'Thr 4 AM', 'Thr 5 AM', 'Thr 6 AM', 'Thr 7 AM', 'Thr 8 AM', 'Thr 9 AM', 'Thr 10 AM', 'Thr 11 AM', 'Thr 12 PM', 'Thr 1 PM', 'Thr 2 PM', 'Thr 3 PM', 'Thr 4 PM', 'Thr 5 PM', 'Thr 6 PM', 'Thr 7 PM', 'Thr 8 PM', 'Thr 9 PM', 'Thr 10 PM', 'Thr 11 PM', 'Fri 12 AM', 'Fri 1 AM', 'Fri 2 AM', 'Fri 3 AM', 'Fri 4 AM', 'Fri 5 AM', 'Fri 6 AM', 'Fri 7 AM', 'Fri 8 AM', 'Fri 9 AM', 'Fri 10 AM', 'Fri 11 AM', 'Fri 12 PM', 'Fri 1 PM', 'Fri 2 PM', 'Fri 3 PM', 'Fri 4 PM', 'Fri 5 PM', 'Fri 6 PM', 'Fri 7 PM', 'Fri 8 PM', 'Fri 9 PM', 'Fri 10 PM', 'Fri 11 PM', 'Sat 12 AM', 'Sat 1 AM', 'Sat 2 AM', 'Sat 3 AM', 'Sat 4 AM', 'Sat 5 AM', 'Sat 6 AM', 'Sat 7 AM', 'Sat 8 AM', 'Sat 9 AM', 'Sat 10 AM', 'Sat 11 AM', 'Sat 12 PM', 'Sat 1 PM', 'Sat 2 PM', 'Sat 3 PM', 'Sat 4 PM', 'Sat 5 PM', 'Sat 6 PM', 'Sat 7 PM', 'Sat 8 PM', 'Sat 9 PM', 'Sat 10 PM', 'Sat 11 PM', 'Sun 12 AM', 'Sun 1 AM', 'Sun 2 AM', 'Sun 3 AM', 'Sun 4 AM', 'Sun 5 AM', 'Sun 6 AM', 'Sun 7 AM', 'Sun 8 AM', 'Sun 9 AM', 'Sun 10 AM', 'Sun 11 AM', 'Sun 12 PM', 'Sun 1 PM', 'Sun 2 PM', 'Sun 3 PM', 'Sun 4 PM', 'Sun 5 PM', 'Sun 6 PM', 'Sun 7 PM', 'Sun 8 PM', 'Sun 9 PM', 'Sun 10 PM', 'Sun 11 PM'],
+   y: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+   name: 'Alice',
+   type: 'bar'
+};
+var data = [trace1, trace2, trace3];
+
+        Plotly.newPlot("most_active_hour_week", data, {
+            barmode: "stack",
+            margin: { l: 25, r: 25, b: 75, t: 25, pad: 4 },
+            plot_bgcolor: "#FCFCFC",
+            paper_bgcolor: "#FCFCFC",
+            height: 260
+        });
+        </script> 
+    <br>
+    <h2>Commonly used words</h2><br>
+    <div id="common_words"></div>
+    <small>*Excluding common english stopwords</small>
+    
+    <script>
+    var data = [{
+        type: 'bar',
+        x: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3],
+        y: ['tomorrow', 'oh', 'rain', 'everybody', 'cancel', 'hows', 'plans', 'though', 'darn', 'expecting', 'weather', 'weathers', 'life', 'hello', 'good'],
+        orientation: 'h'
+    }];
+    
+    Plotly.newPlot("common_words", data, {
+        margin: { l: 50, r: 25, b: 35, t: 25, pad: 4 },
+        plot_bgcolor: "#FCFCFC",
+        paper_bgcolor: "#FCFCFC",
+        height: 300
+    });
+    </script> <br><br><h2>Per Person Statistics</h2><br><br><h2 style='font-size: 24px' class='large-bold light-blue-gray'>Bobby</h2><br><b>Common Words:</b> good <span style='color: gray'>(2)</span> rain <span style='color: gray'>(1)</span> hello <span style='color: gray'>(1)</span> life <span style='color: gray'>(1)</span> expecting <span style='color: gray'>(1)</span> weathers <span style='color: gray'>(1)</span> tomorrow <span style='color: gray'>(1)</span> though <span style='color: gray'>(1)</span> <br><br><table class='simple-table float-left'><tr><td>Total Messages</td><td>3</td><tr><td>Total Words</td><td>12</td><tr><td>Active Days</td><td>1</td></table><table class='simple-table float-left'><tr><td>Words Per Message</td><td>4.00 &nbsp; <span style='color: red'>(-0.25)</span></td><tr><td>Chars Per Message</td><td>25.33 &nbsp; <span style='color: green'>(+2.33)</span></td><tr><td>Letters per word</td><td>5.58 &nbsp; <span style='color: green'>(+0.94)</span></td></table><table class='simple-table float-left'><tr><td>Swears</td><td>0</td><tr><td>Questions</td><td>0</td><tr><td>URLs</td><td>0</td></table><br><br><br><br><blockquote>Hello there!<span>First Message Sent</span></blockquote><blockquote>The weather&#x27;s good. Expecting rain tomorrow though.<span>Random Quote</span></blockquote><br><b>Common Responses:</b><br><div></div><br><br><br><br><h2 style='font-size: 24px' class='large-bold light-blue-gray'>Carl</h2><br><b>Common Words:</b> hello <span style='color: gray'>(1)</span> cancel <span style='color: gray'>(1)</span> everybody <span style='color: gray'>(1)</span> plans <span style='color: gray'>(1)</span> darn <span style='color: gray'>(1)</span> <br><br><table class='simple-table float-left'><tr><td>Total Messages</td><td>2</td><tr><td>Total Words</td><td>13</td><tr><td>Active Days</td><td>1</td></table><table class='simple-table float-left'><tr><td>Words Per Message</td><td>6.50 &nbsp; <span style='color: green'>(+2.25)</span></td><tr><td>Chars Per Message</td><td>31.50 &nbsp; <span style='color: green'>(+8.50)</span></td><tr><td>Letters per word</td><td>4.00 &nbsp; <span style='color: red'>(-0.65)</span></td></table><table class='simple-table float-left'><tr><td>Swears</td><td>0</td><tr><td>Questions</td><td>1</td><tr><td>URLs</td><td>0</td></table><br><br><br><br><blockquote>Hello everybody, how are you?<span>First Message Sent</span></blockquote><blockquote>Oh darn I have to cancel my plans!<span>Random Quote</span></blockquote><br><b>Common Responses:</b><br><div></div><br><br><br><br><h2 style='font-size: 24px' class='large-bold light-blue-gray'>Alice</h2><br><b>Common Words:</b> hello <span style='color: gray'>(1)</span> weather <span style='color: gray'>(1)</span> life <span style='color: gray'>(1)</span> good <span style='color: gray'>(1)</span> hows <span style='color: gray'>(1)</span> <br><br><table class='simple-table float-left'><tr><td>Total Messages</td><td>3</td><tr><td>Total Words</td><td>9</td><tr><td>Active Days</td><td>1</td></table><table class='simple-table float-left'><tr><td>Words Per Message</td><td>3.00 &nbsp; <span style='color: red'>(-1.25)</span></td><tr><td>Chars Per Message</td><td>15.00 &nbsp; <span style='color: red'>(-8.00)</span></td><tr><td>Letters per word</td><td>4.33 &nbsp; <span style='color: red'>(-0.31)</span></td></table><table class='simple-table float-left'><tr><td>Swears</td><td>0</td><tr><td>Questions</td><td>2</td><tr><td>URLs</td><td>0</td></table><br><br><br><br><blockquote>Hello<span>First Message Sent</span></blockquote><blockquote>How is life?<span>Random Quote</span></blockquote><br><b>Common Responses:</b><br><div></div><br><br>

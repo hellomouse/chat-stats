@@ -1,0 +1,9 @@
+-- LOG --
+2018-03-26T12:00:00 <Alice> Hello
+2018-03-26T12:01:00 <Bob> Hello there!
+2018-03-26T12:02:00 <Carl> Hello everybody, how are you?
+2018-03-26T12:03:00 <Alice> I'm good. How's the weather?
+2018-03-26T12:04:00 <Bob> The weather's good. Expecting rain tomorrow though.
+2018-03-26T12:05:00 <Carl> Oh darn I have to cancel my plans!
+2018-03-26T12:06:00 <Alice> How is life?
+2018-03-26T12:07:00 <Bob> Life is good.
